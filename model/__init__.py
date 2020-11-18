@@ -1,1 +1,1 @@
-from .mdeas import *
+from .mdeas import MDEASModel
