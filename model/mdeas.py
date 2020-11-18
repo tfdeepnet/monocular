@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from model.buildingblock import ImageConv, PointwiseConv, PixelShuffleConv, DepthwiseConv, NearestNeighborConv
+from .buildingblock import ImageConv, PointwiseConv, PixelShuffleConv, DepthwiseConv, NearestNeighborConv
 # from Decoder import MaskDecoderBlock, DepthDecoderBlock
 
 class BasicBlock(nn.Module):
